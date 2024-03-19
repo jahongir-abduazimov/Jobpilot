@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css file -->
+    <link rel="stylesheet" href="./styles/output.css" />
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="bg-[#F1F2F4]">
+            <nav class="container-fluid flex items-center justify-between">
+                <ul class="flex gap-6">
+                    <li class="border-b-[2px] border-b-[#0A65CC] py-[14px]"><a class="text-[#0A65CC] text-[14px] font-medium py-[14px]" href="#">Home</a></li>
+                    <li class="py-[14px]"><a class="text-[#5E6670] text-[14px] py-[14px] hover:text-[#0A65CC]" href="#">Find Job</a></li>
+                    <li class="py-[14px]"><a class="text-[#5E6670] text-[14px] py-[14px] hover:text-[#0A65CC]" href="#">Employers</a></li>
+                    <li class="py-[14px]"><a class="text-[#5E6670] text-[14px] py-[14px] hover:text-[#0A65CC]" href="#">Candidates</a></li>
+                    <li class="py-[14px]"><a class="text-[#5E6670] text-[14px] py-[14px] hover:text-[#0A65CC]" href="#">Pricing Plans</a></li>
+                    <li class="py-[14px]"><a class="text-[#5E6670] text-[14px] py-[14px] hover:text-[#0A65CC]" href="#">Customer Supports</a></li>
+                </ul>
+                <div class="flex items-center gap-[24px]">
+                    <div>
+                        <a href="tel:+1-202-555-0178">+1-202-555-0178</a>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img src="./assets/images/flag.svg" alt="icon">
+                        <select class="bg-transparent outline-none">
+                            <option class="bg-transparent" value="english">
+                                English
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid h-[90px] flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <a href=""><img src="./assets/images/Logo.svg" alt=""></a>
+                <div class="w-[668px] border flex h-[50px] items-center p-[24px]">
+                    <div class="flex items-center gap-3 pr-[20px] border-r-[1px] mr-5 border-r-[#E4E5E8]">
+                        <img src="./assets/images/flag-india.svg" alt="icon">
+                        <select class="bg-transparent outline-none">
+                            <option class="bg-transparent" value="english">
+                                India
+                            </option>
+                        </select>
+                    </div>
+                    <div class="relative">
+                        <img class="absolute" src="./assets/images/fi_search.svg" alt="search icon">
+                        <input class="pl-[40px] outline-none w-[500px] h-full" type="search"
+                            placeholder="Job tittle, keyword, company">
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-3">
+                <button class="py-3 px-6 border-[#CEE0F5] border rounded-[3px] text-[#0A65CC] font-semibold">Sign
+                    In</button>
+                <button class="py-3 px-6 bg-[#0A65CC] rounded-[3px] text-white font-semibold">Post a Jobs</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-[#F1F2F499] py-[100px]">
+        <div class="container-fluid">
+            <div class="flex justify-between mb-[100px]">
+                <div>
+                    <h1 class="text-[56px] font-medium w-[652px] leading-[64px] mb-[24px]">
+                        Find a job that suits your interest & skills.
+                    </h1>
+                    <p class="text-[#5E6670] text-[18px] w-[536px] mb-[32px]">
+                        Aliquam vitae turpis in diam convallis finibus in at risus. Nullam in scelerisque leo, eget
+                        sollicitudin velit bestibulum.
+                    </p>
+                    <div
+                        class="bg-white p-3 mb-6 w-[679px] border border-[#E4E5E8] flex items-center justify-between rounded-[8px]">
+                        <div class="flex">
+                            <div class="relative">
+                                <img class="absolute left-4" src="./assets/images/fi_search.svg" alt="search icon">
+                                <input class="pl-[54px] outline-none pr-3" type="text"
+                                    placeholder="Job tittle, Keyword...">
+                            </div>
+                            <div>
+                                <a class="flex items-center gap-3" href="#">
+                                    <img src="./assets/images/fi_map-pin.svg" alt="location icon">
+                                    <span class="text-[#9199A3]">Your Location</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="py-[16px] px-[32px] bg-[#0A65CC] rounded font-semibold text-white">
+                            Find Job
+                        </button>
+                    </div>
+                    <p class="text-[#474C54] text-[14px]"><span class="text-[#9199A3]">Suggestion:</span> Designer,
+                        Programing, <span class="text-[#0A65CC] font-medium">Digital Marketing,</span> Video, Animation.
+                    </p>
+                </div>
+                <div>
+                    <img src="./assets/images/Illustration.png" alt="img">
+                </div>
+            </div>
+            <div class="flex justify-between">
+                <div class="card w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/briefcase-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[24px] font-medium">1,75,324</p>
+                        <p class="text-[#767F8C]">Live Job</p>
+                    </div>
+                </div>
+                <div class="card w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/buildings-duotone.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-[24px] font-medium">97,354</p>
+                        <p class="text-[#767F8C]">Companies</p>
+                    </div>
+                </div>
+                <div class="card w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/users-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[24px] font-medium">38,47,154</p>
+                        <p class="text-[#767F8C]">Candidates</p>
+                    </div>
+                </div>
+                <div class="card w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/briefcase-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[24px] font-medium">7,532</p>
+                        <p class="text-[#767F8C]">New Jobs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[100px]">
+        <div class="container-fluid">
+            <h1 class="text-[#18191C] font-medium text-[40px] mb-[50px]">Most Popular Vacancies</h1>
+            <div class="flex justify-between">
+                <div class="flex flex-col gap-y-[32px]">
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Anesthesiologists</a>
+                        <p class="text-[14px] text-[#767F8C]">45,904 Open Positions</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Maxillofacial Surgeons</a>
+                        <p class="text-[14px] text-[#767F8C]">74,875 Open Positions</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Financial Manager</a>
+                        <p class="text-[14px] text-[#767F8C]">61,391 Open Positions</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-y-[32px]">
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Surgeons</a>
+                        <p class="text-[14px] text-[#767F8C]">50,364 Open Positions</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Software Developer</a>
+                        <p class="text-[14px] text-[#767F8C]">43359 Open Positions</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Management Analysis</a>
+                        <p class="text-[14px] text-[#767F8C]">93,046 Open Positions</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-y-[32px]">
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Obstetricians-Gynecologists</a>
+                        <p class="text-[14px] text-[#767F8C]">4,339 Open Positions</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Psychiatrists</a>
+                        <p class="text-[14px] text-[#767F8C]">18,599 Open Positions</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">IT Manager</a>
+                        <p class="text-[14px] text-[#767F8C]">50,963 Open Positions</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-y-[32px]">
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Orthodontists</a>
+                        <p class="text-[14px] text-[#767F8C]">20,079 Open Positions</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Data Scientist</a>
+                        <p class="text-[14px] text-[#767F8C]">28,200 Open Positions</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <a href="#" class="font-medium text-[18px] text-[#18191C] hover:text-[#0A65CC] hover:underline">Operations Research Analysis</a>
+                        <p class="text-[14px] text-[#767F8C]">16,627 Open Positions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#F1F2F4] py-[100px]">
+        <div class="container-fluid">
+            <h1 class="text-[40px] text-[#18191C] font-medium text-center mb-[50px]">How jobpilot work</h1>
+            <div class="flex justify-between">
+                <div class="w-[312px] relative h-[224px] flex flex-col items-center text-center p-6 rounded-[12px]">
+                    <div class="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-white mb-6">
+                        <img src="./assets/images/user-plus-duotone.svg" alt="icon">
+                    </div>
+                    <p class="text-[#18191C] font-medium text-[18px] mb-3">Create account</p>
+                    <p class="text-[14px] text-[#767F8C]">Aliquam facilisis egestas sapien, nec tempor leo tristique at.</p>
+                    <img class="absolute top-1 left-[210px] z-10" src="./assets/images/Arrows.svg" alt="img">
+                </div>
+                <div class="w-[312px] relative h-[224px] flex flex-col items-center text-center p-6 rounded-[12px] bg-white">
+                    <div class="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-[#0A65CC] mb-6">
+                        <img src="./assets/images/cloud-arrow-up-duotone.svg" alt="icon">
+                    </div>
+                    <p class="text-[#18191C] font-medium text-[18px] mb-3">Upload CV/Resume</p>
+                    <p class="text-[14px] text-[#767F8C]">Curabitur sit amet maximus ligula. Nam a nulla ante. Nam sodales</p>
+                    <img class="absolute top-[80px] left-[210px] z-10" src="./assets/images/Arrows2.svg" alt="img">
+                </div>
+                <div class="w-[312px] relative h-[224px] flex flex-col items-center text-center p-6 rounded-[12px]">
+                    <div class="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-white mb-6">
+                        <img src="./assets/images/magnifying-glass-plus-duotone.svg" alt="icon">
+                    </div>
+                    <p class="text-[#18191C] font-medium text-[18px] mb-3">Find suitable job</p>
+                    <p class="text-[14px] text-[#767F8C]">Phasellus quis eleifend ex. Morbi nec fringilla nibh.</p>
+                    <img class="absolute top-1 left-[210px] z-10" src="./assets/images/Arrows.svg" alt="img">
+                </div>
+                <div class="w-[312px] relative h-[224px] flex flex-col items-center text-center p-6 rounded-[12px]">
+                    <div class="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-white mb-6">
+                        <img src="./assets/images/circle-wavy-check-duotone.svg" alt="icon">
+                    </div>
+                    <p class="text-[#18191C] font-medium text-[18px] mb-3">Apply job</p>
+                    <p class="text-[14px] text-[#767F8C]">Curabitur sit amet maximus ligula. Nam a nulla ante, Nam sodales purus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[100px]">
+        <div class="container-fluid">
+            <h1 class="text-[#18191C] text-[40px] font-medium mb-[50px]">Popular category</h1>
+            <div class="grid grid-cols-4 gap-y-6">
+                <div class="w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/pen-nib-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[18px] font-medium mb-2">Graphics & Design</p>
+                        <p class="text-[#767F8C]">357 Open position</p>
+                    </div>
+                </div>
+                <div class="w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/code-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[18px] font-medium mb-2">Code & Programing</p>
+                        <p class="text-[#767F8C]">312 Open position</p>
+                    </div>
+                </div>
+                <div class="w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/megaphone-simple-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[18px] font-medium mb-2">Digital Marketing</p>
+                        <p class="text-[#767F8C]">297 Open position</p>
+                    </div>
+                </div>
+                <div class="w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/monitor-play-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[18px] font-medium mb-2">Video & Animation</p>
+                        <p class="text-[#767F8C]">247 Open position</p>
+                    </div>
+                </div>
+                <div class="w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/music-notes-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[18px] font-medium mb-2">Music & Audio</p>
+                        <p class="text-[#767F8C]">204 Open position</p>
+                    </div>
+                </div>
+                <div class="w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/chart-bar-horizontal-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[18px] font-medium mb-2">Account & Finance</p>
+                        <p class="text-[#767F8C]">167 Open position</p>
+                    </div>
+                </div>
+                <div class="w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/first-aid-kit-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[18px] font-medium mb-2">Health & Care</p>
+                        <p class="text-[#767F8C]">125 Open position</p>
+                    </div>
+                </div>
+                <div class="w-[312px] p-[20px] rounded-[8px] bg-white flex items-center gap-5 hover:shadow-[0_10px_30px_5px_#002C6D1A] duration-300 cursor-pointer">
+                    <div class="card-box w-[72px] h-[72px] bg-[#E7F0FA] rounded flex items-center justify-center">
+                        <img src="./assets/images/database-duotone.svg" alt="img">
+                    </div>
+                    <div>
+                        <p class="text-[18px] font-medium mb-2">Data & Science</p>
+                        <p class="text-[#767F8C]">57 Open position</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
